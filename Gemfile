@@ -5,3 +5,5 @@ gem "pluto"
 
 gem "activerecord"
 gem "sqlite3"
+
+gem "sass"
