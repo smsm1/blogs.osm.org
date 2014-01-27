@@ -111,3 +111,7 @@ hr.item-seperator {
   .item .item-closed {
     cursor: pointer;
     display: none; }
+
+.logo {
+  height: 50px;
+  width: 50px; }

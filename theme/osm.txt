@@ -9,6 +9,7 @@ css/blank.cards.css
 css/font-awesome.css
 
 i/feed-icon-10x10.png
+i/logo.png
 i/view-headlines.png
 i/view-snippets.png
 i/view-standard.png
