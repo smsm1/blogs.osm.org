@@ -2,6 +2,8 @@
 
 __file__.html        blank.html.erb
 __file__.cards.html  blank.cards.html.erb
+__file__.atom.xml    atom.xml.erb
+__file__.rss         rss.xml.erb
 
 
 css/blank.css

@@ -6,6 +6,9 @@
 
   <title><%= site.title %></title>
 
+  <link rel="alternate" type="application/rss+xml" title="Blog posts RSS" href="planet.rss" />
+  <link rel="alternate" type="application/atom+xml" title="Blog posts atom" href="http://blogs.openstreetmap.org/atom.xml" />
+
   <%= stylesheet_link_tag 'css/font-awesome' %>
   <%= stylesheet_link_tag 'css/blank' %>
 
@@ -49,9 +52,9 @@
     </ul>
 
     <p>Meta</p>
-    <p class='small'>Powered by <a href='https://github.com/feedreader'>Pluto</a>; 
-       Questions? Comments?
-      Send them along to the <a href='http://groups.google.com/group/feedreader'>forum/mailing list</a>. Thanks!
+    <p class='small'>Powered by <a href='https://github.com/feedreader'>Pluto</a>.
+      Maintained by <%= link_to "Shaun McDonald", "http://www.openstreetmap.org/user/smsm1" %>
+      Send me an OSM message, or <%= link_to "file a bug or pull request on github", "https://github.com/smsm1/blogs.osm.org" %>.
     </p>
 </div>
 </div>
