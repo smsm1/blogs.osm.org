@@ -26,4 +26,5 @@ font/fontawesome-webfont.woff
 font/FontAwesome.otf
 
 .htaccess
+robots.txt
 

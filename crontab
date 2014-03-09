@@ -1,4 +1,4 @@
 MAILTO=shaun+blogs.osm.org@shaunmcdonald.me.uk
 
 # Update the planet blog
-03,33 * * * * cd /srv/planet-osm.shaunmcdonald.me.uk/public/blogs.osm.org; pluto update
+03,33 * * * * cd /srv/planet-osm.shaunmcdonald.me.uk/public/blogs.osm.org; pluto build -t osm -o ../htdocs/
