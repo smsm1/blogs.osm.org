@@ -24,3 +24,6 @@ font/fontawesome-webfont.svg
 font/fontawesome-webfont.ttf
 font/fontawesome-webfont.woff
 font/FontAwesome.otf
+
+.htaccess
+
