@@ -2,6 +2,7 @@
 Redirect 301 /rss20.xml /planet.rss
 Redirect 301 /atom.xml /planet.rss
 Redirect 301 /rss10.xml /planet.rss
+Redirect 301 /opml.xml /planet.opml.xml
 
 # Change default directory page
 DirectoryIndex planet.html
