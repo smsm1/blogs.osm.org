@@ -131,9 +131,11 @@
    note: content goes first; than try summary
  -->
 <% if item.content %>
-  <%= textify( item.content ) %>
+  <% textify( item.content ) %>
+  <%= item.content %>
 <% elsif item.summary %>
-  <%= textify( item.summary ) %>
+  <% textify( item.summary ) %>
+  <%= item.summary %>
 <% else %>
   -/-
 <% end %>

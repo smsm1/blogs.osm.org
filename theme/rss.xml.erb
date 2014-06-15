@@ -16,9 +16,9 @@
   <guid><%= item.guid %></guid>
   <link><%= item.url %></link>
   <description><% if item.content %>
-    <%= CGI.escapeHTML(textify( item.content )) %>
+    <%= CGI.escapeHTML(item.content) %>
   <% elsif item.summary %>
-    <%= CGI.escapeHTML(textify( item.summary )) %>
+    <%= CGI.escapeHTML(item.summary) %>
   <% end %></description>
   <pubDate><%= item.published %></pubDate>
   <author> item.author todo-needs pluto fix</author>
