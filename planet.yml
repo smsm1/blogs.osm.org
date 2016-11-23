@@ -66,3 +66,91 @@ gregory_marler:
   title: Gregory Marler
   link: http://www.livingwithdragons.com/
   feed: http://www.livingwithdragons.com/feed
+harry_wood:
+  title: Harry Wood
+  link: http://harrywood.co.uk/blog/
+  feed: http://harrywood.co.uk/blog/feed/
+matt_amos:
+  title: Matt Amos
+  link: http://www.asklater.com/matt/blog/
+  feed: http://www.asklater.com/matt/blog/feed/
+peter_reed:
+  title: Peter Reed
+  link: http://tlatet.blogspot.co.uk/
+  feed: http://tlatet.blogspot.com/feeds/posts/default
+geofabrik:
+  title: "Geofabrik: Notizen aus der Maschinenhalle"
+  link: http://blog.geofabrik.de/
+  feed: http://blog.geofabrik.de/?feed=rss2
+maning_sambale:
+  title: Maning Sambale
+  link: http://epsg4253.wordpress.com/
+  feed: https://epsg4253.wordpress.com/feed/
+igor_brejc:
+  title: Igor Brejc
+  link: http://igorbrejc.net/category/openstreetmap/
+  feed: http://igorbrejc.net/category/openstreetmap/feed
+mappa_mercia:
+  title: Mappa Mercia
+  link: http://www.mappa-mercia.org/blog
+  feed: http://www.mappa-mercia.org/feed
+cyclestreets:
+  title: CycleStreets
+  link: http://www.cyclestreets.net/blog/
+  feed: http://www.cyclestreets.net/blog/feed/
+sven_geggus:
+  title: Sven Geggus
+  link: http://blog.gegg.us/category/openstreetmap/
+  feed: http://blog.gegg.us/category/openstreetmap/feed/
+christoph_eckert:
+  title: Christoph Eckert
+  link: http://www.christeck.de/wp/category/openstreetmap/
+  feed: http://www.christeck.de/wp/category/openstreetmap/feed/
+gary_gale:
+  title: Gary Gale
+  link: http://www.vicchi.org/tag/openstreetmap/
+  feed: http://www.vicchi.org/tag/openstreetmap/feed/
+peter_batty:
+  title: Peter Batty
+  link: http://geothought.blogspot.com/
+  feed: http://geothought.blogspot.com/feeds/posts/default
+muki_haklay:
+  title: Muki Haklay
+  link: https://povesham.wordpress.com/tag/openstreetmap/
+  feed: https://povesham.wordpress.com/tag/openstreetmap/feed/
+tom_hughes:
+  title: Tom Hughes
+  link: http://compton.nu/category/openstreetmap/
+  feed: http://compton.nu/category/openstreetmap/feed
+tim_teulings:
+  title: Tim Teulings
+  link: http://framstag.wordpress.com/category/openstreetmap/
+  feed: http://framstag.wordpress.com/category/openstreetmap/feed/
+osmblog:
+  title: OSMBlog (openstreetmap.de)
+  link: http://blog.openstreetmap.de/
+  feed: http://blog.openstreetmap.de/feed/
+pascal_neis:
+  title: Pascal Neis
+  link: http://neis-one.org/
+  feed: http://neis-one.org/feed/atom/
+richard_weait:
+  title: Richard Weait
+  link: http://weait.com/taxonomy/term/2
+  feed: http://weait.com/taxonomy/term/2/feed
+jochen_topf:
+  title: Jochen Topf
+  link: https://blog.jochentopf.com/
+  feed: https://blog.jochentopf.com/feed.xml
+andrew_harvey:
+  title: Andrew Harvey
+  link: http://andrewharvey4.wordpress.com/tag/osm/
+  feed: http://andrewharvey4.wordpress.com/tag/osm/feed/
+jerry_clough:
+  title: Jerry Clough
+  link: http://sk53-osm.blogspot.com/
+  feed: http://sk53-osm.blogspot.com/feeds/posts/default
+derick_rethans:
+  title: Derrick Rethans
+  link: https://derickrethans.nl/
+  feed: http://derickrethans.nl/feed-openstreetmap.xml
