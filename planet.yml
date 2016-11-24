@@ -154,3 +154,57 @@ derick_rethans:
   title: Derrick Rethans
   link: https://derickrethans.nl/
   feed: http://derickrethans.nl/feed-openstreetmap.xml
+shtosm:
+  title: ШТОСМ
+  link: http://shtosm.ru/
+  feed: http://shtosm.ru/rss/
+steve_singer:
+  title: Steve Singer
+  link: https://scanningpages.wordpress.com/category/openstreetmap/
+  feed: https://scanningpages.wordpress.com/category/openstreetmap/feed/
+osmand:
+  title: OsmAnd
+  link: http://osmand.net/blog
+  feed: http://osmand.net/rss.xml
+sosm_ch:
+  title: Swiss OpenStreetMap Association
+  link: http://sosm.ch/
+  feed: http://osmand.net/rss.xml
+martijn_van_exel:
+  title: Martijn van Exel
+  link: http://oegeo.wordpress.com/
+  feed: http://oegeo.wordpress.com/feed/
+toby_murray:
+  title: Toby Murray
+  link: http://ksmapper.blogspot.com/
+  feed: http://ksmapper.blogspot.com/feeds/posts/default
+opensnowmap:
+  title: opensnowmap
+  link: http://blog.opensnowmap.org/
+  feed: http://blog.opensnowmap.org/feed/atom
+dennis_nienhuser:
+  title: Dennis
+  link: http://nienhueser.de/blog/?cat=8
+  feed: http://nienhueser.de/blog/?feed=rss2&#038;cat=8
+mkgmap:
+  title: mkgmap
+  link: http://www.mkgmap.org.uk/news/
+  feed: http://www.mkgmap.org.uk/feed/atom
+weeklyosm:
+  title: weeklyOSM
+  link: http://www.weeklyosm.eu/
+  feed: http://www.weeklyosm.eu/feed
+osmradio:
+  title: OSM Радио
+  link: http://radio.osmz.ru/
+  feed: http://radio.osmz.ru/rss/
+florian_lohoff:
+  title: Florian Lohoff
+  link: http://f.zz.de/tags/osm/
+  feed: http://f.zz.de/tags/osm/index.atom
+openrailwaymap_en:
+  title: OpenRailwayMap (English)
+  feed: http://blog.openrailwaymap.org/en.rss
+openrailwaymap_de:
+  title: OpenRailwayMap (German)
+  feed: http://blog.openrailwaymap.org/de.rss
