@@ -10,10 +10,10 @@ mapbox:
   link: https://www.mapbox.com/blog/
   feed: https://www.mapbox.com/blog/blog.rss
   twitter: mapbox
-osm_diaries:
-  title: OpenStreetMap User's Diaries
-  link: http://www.openstreetmap.org/diary/
-  feed: http://www.openstreetmap.org/diary/rss
+# osm_diaries:
+#   title: OpenStreetMap User's Diaries
+#   link: http://www.openstreetmap.org/diary/
+#   feed: http://www.openstreetmap.org/diary/rss
 osm_blog:
   title: OpenStreetMap Blog
   link: http://feeds.feedburner.com/Opengeodata
@@ -114,10 +114,10 @@ muki_haklay:
   title: Muki Haklay
   link: https://povesham.wordpress.com/tag/openstreetmap/
   feed: https://povesham.wordpress.com/tag/openstreetmap/feed/
-tom_hughes:
-  title: Tom Hughes
-  link: http://compton.nu/category/openstreetmap/
-  feed: http://compton.nu/category/openstreetmap/feed
+# tom_hughes:
+#   title: Tom Hughes
+#   link: http://compton.nu/category/openstreetmap/
+#   feed: http://compton.nu/category/openstreetmap/feed
 tim_teulings:
   title: Tim Teulings
   link: http://framstag.wordpress.com/category/openstreetmap/
