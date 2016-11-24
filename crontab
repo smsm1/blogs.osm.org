@@ -1,6 +1,0 @@
-MAILTO=shaun+blogs.osm.org@shaunmcdonald.me.uk
-#PATH=/srv/.rvm/gems/ruby-2.1.0/bin:/srv/.rvm/gems/ruby-2.1.0@global/bin:/srv/.rvm/rubies/ruby-2.1.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/srv/.rvm/bin
-source /srv/.rvm/environments/ruby-2.1.0
-
-# Update the planet blog
-03 * * * * cd /srv/planet-osm.shaunmcdonald.me.uk/public/blogs.osm.org && pluto build -t osm -o ../htdocs/
