@@ -10,10 +10,10 @@ mapbox:
   link: https://www.mapbox.com/blog/
   feed: https://www.mapbox.com/blog/blog.rss
   twitter: mapbox
-# osm_diaries:
-#   title: OpenStreetMap User's Diaries
-#   link: http://www.openstreetmap.org/diary/
-#   feed: http://www.openstreetmap.org/diary/rss
+osm_diaries:
+  title: OpenStreetMap User's Diaries
+  link: http://www.openstreetmap.org/diary/
+  feed: http://www.openstreetmap.org/diary/rss
 osm_blog:
   title: OpenStreetMap Blog
   link: http://feeds.feedburner.com/Opengeodata
