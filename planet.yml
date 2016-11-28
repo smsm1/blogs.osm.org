@@ -66,10 +66,10 @@ harry_wood:
   title: Harry Wood
   link: http://harrywood.co.uk/blog/
   feed: http://harrywood.co.uk/blog/feed/
-matt_amos:
-  title: Matt Amos
-  link: http://www.asklater.com/matt/blog/
-  feed: http://www.asklater.com/matt/blog/feed/
+# matt_amos:
+#   title: Matt Amos
+#   link: http://www.asklater.com/matt/blog/
+#   feed: http://www.asklater.com/matt/blog/feed/
 peter_reed:
   title: Peter Reed
   link: http://tlatet.blogspot.co.uk/
