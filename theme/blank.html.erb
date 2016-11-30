@@ -46,12 +46,6 @@
      <% end %>
      </ul>
 
-    <p>Planetarium</p>
-    <ul class='planetarium small'>
-      <li><a href='http://plutolive.herokuapp.com'>Planet Ruby</a></li>
-      <li><a href='http://viennarb.herokuapp.com'>Planet vienna.rb</a></li>
-    </ul>
-
     <p>Meta</p>
     <p class='small'>Powered by <a href='https://github.com/feedreader'>Pluto</a>.
       Maintained by <%= link_to "Shaun McDonald", "http://www.openstreetmap.org/user/smsm1" %>
@@ -73,7 +67,7 @@
       <%= link_to 'Standard', "#{site.key}.html" %> &bull;
       <%= link_to 'Cards', "#{site.key}.cards.html" %>
   </div>
-</div>  
+</div>
 
 
 <h1><%= image_tag 'i/logo.png', :class => "logo" %><%= site.title %></h1>
@@ -104,7 +98,7 @@
 
 
 <h3 class='item-title'>
- 
+
  <i class='icon-caret-down item-collapse item-close item-opened'></i>
  <i class='icon-caret-right item-expand item-open item-closed'></i>
  <%= link_to item.title, item.url %>
@@ -139,7 +133,7 @@
 <% else %>
   -/-
 <% end %>
-  
+
 </div>
 
 <div class='item-footer'>
