@@ -36,3 +36,7 @@ bundle exec pluto list
 The theme was started by taking the [blank template](https://github.com/feedreader/pluto.blank), and also merging in the [feeds template](https://github.com/feedreader/pluto.feeds)
 
 To update the CSS in the theme, update the Sass, as documented at the start of the relevant file.
+
+## Feed Policy
+
+The policy of what feeds are suitable for inclusion, along with guidance on how to propose changes to the feeds list, is available in [FEEDS.md](FEEDS.md).
