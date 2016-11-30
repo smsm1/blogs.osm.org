@@ -1,10 +1,10 @@
 # pakman manifest
 
-__file__.html        blank.html.erb
-__file__.cards.html  blank.cards.html.erb
-__file__.atom.xml    atom.xml.erb
-__file__.rss         rss.xml.erb
-__file__.opml.xml    opml.xml.erb
+index.html  blank.html.erb
+cards.html  blank.cards.html.erb
+atom.xml    atom.xml.erb
+rss20.xml   rss.xml.erb
+opml.xml    opml.xml.erb
 
 
 css/blank.css

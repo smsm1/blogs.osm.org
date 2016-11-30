@@ -6,8 +6,8 @@
 
   <title><%= site.title %></title>
 
-  <link rel="alternate" type="application/rss+xml" title="Blog posts RSS" href="planet.rss" />
-  <!-- <link rel="alternate" type="application/atom+xml" title="Blog posts atom" href="http://blogs.openstreetmap.org/atom.xml" /> -->
+  <link rel="alternate" type="application/rss+xml" title="Blog posts (RSS)" href="rss20.xml" />
+  <link rel="alternate" type="application/atom+xml" title="Blog posts (Atom)" href="atom.xml" />
   <link rel="shortcut icon" href="/favicon.ico">
 
   <%= stylesheet_link_tag 'css/font-awesome' %>
@@ -63,8 +63,8 @@
   </div>
   <div style='width: 100%; text-align: right;'>
     Style |
-      <%= link_to 'Standard', "#{site.key}.html" %> &bull;
-      <%= link_to 'Cards', "#{site.key}.cards.html" %>
+      <%= link_to 'Standard', "/" %> &bull;
+      <%= link_to 'Cards', "/cards.html" %>
   </div>
 </div>
 

@@ -25,9 +25,9 @@
    <img src='i/view-standard.png' id='show-fulltext'    title='Show Full Text' width='24' height='24'>
   </div>
   <div style='width: 100%; text-align: right;'>
-    Style | 
-      <%= link_to 'Standard', "#{site.key}.html" %> &bull;
-      <%= link_to 'Cards', "#{site.key}.cards.html" %>    
+    Style |
+      <%= link_to 'Standard', "/" %> &bull;
+      <%= link_to 'Cards', "/cards.html" %>
   </div>
 </div>
 
@@ -69,7 +69,7 @@
     <%= link_to item.feed.title, item.feed.url %>
   </span>
   <span class='item-published'>
-     - 
+     -
       <!-- fix/todo: show year if not current year
            e.g. use "%b %d, '%y"
          -->
@@ -87,7 +87,7 @@
 </h3>
 
 <div class='item-body'>
-  
+
 <div class='item-snippet'>
 <!-- use 'smarter' algorithm for cutoff snippet text
    note: summary goes first; than try content -->
@@ -101,7 +101,7 @@
 
  <span class='item-time-ago-in-words'>
  <%= time_ago_in_words( item.published ) %>
- </span>  
+ </span>
 </div>
 
 <div class='item-content item-summary'>
@@ -120,8 +120,8 @@
 
  <span class='item-time-ago-in-words'>
  <%= time_ago_in_words( item.published ) %>
- </span>  
-  
+ </span>
+
 </div>
 
 </div> <!-- item-body -->
