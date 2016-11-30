@@ -6,7 +6,7 @@
   <link href="<%= site.url %>"/>
   <id></id>
   <updated><%= site.fetched.strftime('%A, %d. %B %Y %H:%M') if site.fetched %></updated>
-  <generator uri="http://www.planetplanet.org/"><%= Pluto.generator %></generator>
+  <generator uri="http://feedreader.github.io/"><%= Pluto.generator %></generator>
 
 <%
    items = site.items.latest.limit(50)
