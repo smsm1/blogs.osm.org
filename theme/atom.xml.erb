@@ -26,16 +26,6 @@
       <name><%= item.feed.title %></name>
       <uri><%= item.feed.url %></uri>
     </author>
-    <source>
-      <title type="html"><TMPL_VAR channel_title ESCAPE="HTML"></title>
-      <title type="html"><TMPL_VAR channel_name ESCAPE="HTML"></title>
-      <subtitle type="html"><TMPL_VAR channel_subtitle ESCAPE="HTML"></subtitle>
-      <link rel="self" href="<TMPL_VAR channel_url ESCAPE="HTML">"/>
-      <id><TMPL_VAR channel_id ESCAPE="HTML"></id>
-      <id><TMPL_VAR channel_url ESCAPE="HTML"></id>
-      <updated><TMPL_VAR channel_updated_iso></updated>
-      <rights type="html"><TMPL_VAR channel_rights ESCAPE="HTML"></rights>
-    </source>
   </entry>
 
 <% end %>
