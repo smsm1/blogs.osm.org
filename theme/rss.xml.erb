@@ -12,7 +12,7 @@
    ItemCursor.new( items ).each do |item, new_date, new_feed|
 %>
 <item>
-  <title><%= CGI.escapeHTML(item.feed.title) %>: <%= CGI.escapeHTML(item.title) %></title>
+  <title><%= CGI.escapeHTML(item.title) %></title>
   <guid><%= item.guid %></guid>
   <link><%= item.url %></link>
   <description><% if item.content %>
@@ -21,7 +21,7 @@
     <%= CGI.escapeHTML(item.summary) %>
   <% end %></description>
   <pubDate><%= item.published %></pubDate>
-  <author> item.author todo-needs pluto fix</author>
+  <author><%= CGI.escapeHTML(item.feed.title) %></author>
 </item>
 <% end %>
 </channel>
