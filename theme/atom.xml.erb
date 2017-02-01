@@ -5,7 +5,7 @@
   <link rel="self" href="<%= site.url %>"/>
   <link href="<%= site.url %>"/>
   <id></id>
-  <updated><%= site.fetched.strftime('%A, %d. %B %Y %H:%M') if site.fetched %></updated>
+  <updated><%= site.fetched.to_datetime.rfc3339 if site.fetched %></updated>
   <generator uri="http://feedreader.github.io/"><%= Pluto.generator %></generator>
 
 <%
@@ -16,7 +16,7 @@
     <title type="html" xml:lang="en"><%= CGI.escapeHTML(item.feed.title) %>: <%= CGI.escapeHTML(item.title) %></title>
     <link href="<%= item.url %>"/>
     <id><%= item.guid %></id>
-    <updated><%= item.published %></updated>
+    <updated><%= item.published.to_datetime.rfc3339 %></updated>
     <content type="html" xml:lang="en"><% if item.content %>
     <%= CGI.escapeHTML(item.content) %>
   <% elsif item.summary %>
