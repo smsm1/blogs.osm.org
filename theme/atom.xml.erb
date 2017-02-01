@@ -18,9 +18,9 @@
     <id><%= item.guid %></id>
     <updated><%= item.published %></updated>
     <content type="html" xml:lang="en"><% if item.content %>
-    <%= CGI.escapeHTML(textify( item.content )) %>
+    <%= CGI.escapeHTML(item.content) %>
   <% elsif item.summary %>
-    <%= CGI.escapeHTML(textify( item.summary )) %>
+    <%= CGI.escapeHTML(item.summary) %>
   <% end %></content>
     <author>
       <name><%= item.feed.title %></name>
