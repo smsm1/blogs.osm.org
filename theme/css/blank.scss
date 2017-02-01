@@ -2,30 +2,22 @@
 //  or  sass --watch blank.scss:blank.css
 
 
-$primary-color:   #333;          // title, etc.
+$primary-color:   #222;          // title, etc.
 $secondary-color: grey;
-
-$link-color:          #8b0000;  // darkred; see wikipedia web colors
-$link-visited-color:  #b22222;  // firebrick (red); see wikipedia web colors
-
 
 $small-font-size: 12px;
 
 
 
 body {
-  font-family: sans-serif;
-  color: $primary-color;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6666;
+  color: #222; }
 }
 
 
 a {
   text-decoration: none;
-  color: $link-color;
-
-  &:visited {
-    color: $link-visited-color;
-  }
 
   &:hover {
     text-decoration: underline;
@@ -49,8 +41,7 @@ a {
 
 #nav {
   width: 180px;
-  padding: 4px;
-  border: 1px solid #bbb;
+  padding: 2px 8px;
   background-color: #eee;
 
   ul.subscriptions {
@@ -179,3 +170,8 @@ hr.item-seperator {
   height: 50px;
   width: 50px;
 }
+
+img {
+  max-width: 100%;
+}
+
