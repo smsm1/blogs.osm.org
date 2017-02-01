@@ -1,14 +1,10 @@
 body {
-  font-family: sans-serif;
-  color: #333333; }
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6666;
+  color: #222; }
 
-a {
-  text-decoration: none;
-  color: darkred; }
-  a:visited {
-    color: firebrick; }
-  a:hover {
-    text-decoration: underline; }
+a { text-decoration: none; }
+  a:hover { text-decoration: underline; }
 
 .small {
   font-size: 12px; }
@@ -21,8 +17,7 @@ a {
 
 #nav {
   width: 180px;
-  padding: 4px;
-  border: 1px solid #bbb;
+  padding: 2px 8px;
   background-color: #eee; }
   #nav ul.subscriptions {
     list-style-type: none;
@@ -115,3 +110,7 @@ hr.item-seperator {
 .logo {
   height: 50px;
   width: 50px; }
+
+img {
+  max-width: 100%;
+}
