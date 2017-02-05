@@ -16,7 +16,7 @@ osm_diaries:
   feed: http://www.openstreetmap.org/diary/rss
 osm_blog:
   title: OpenStreetMap Blog
-  link: http://feeds.feedburner.com/Opengeodata
+  link: https://blog.openstreetmap.org
   feed: https://blog.openstreetmap.org/feed/
 richard_fairhurst:
   title: Richard Fairhurst
