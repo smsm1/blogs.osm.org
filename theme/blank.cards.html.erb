@@ -53,7 +53,7 @@
   </colgroup>
 <tr>
 
-<%  site.items.latest.limit(24).in_columns(2).each do |items| %>
+<%  site.items.latest.limit(24).to_a.in_columns(2).each do |items| %>
 
 <td valign='top'>
   <!-- start new column -->
