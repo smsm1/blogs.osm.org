@@ -71,7 +71,7 @@
 
 <h1><%= image_tag 'i/logo.png', :class => "logo" %><%= site.title %></h1>
 
-
+<div id="articles">
 <%
    items = site.items.latest.limit(24)
    ItemCursor.new( items ).each do |item, new_date, new_feed|
@@ -149,6 +149,7 @@
 
 <% end %><!-- each item -->
 
+</div>
 
 </body>
 </html>
