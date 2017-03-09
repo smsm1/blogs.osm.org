@@ -2,7 +2,7 @@
 
 In the past it was unclear how to add or remove feeds from blogs.openstreetmap.org; who to ask, what was relevant, who could make changes. This document aims to bring clarity to what should be included, and how changes are made.
 
-The configuration file that contains the list of feeds currently used is [planet.yml](planet.yml)
+The configuration file that contains the list of feeds currently used is [planet.ini](planet.ini)
 
 ## Relevant feeds
 
@@ -22,7 +22,7 @@ If you want to add a feed, you should open an Issue on this repository. You shou
 * A link to the blog
 * A link to the Atom or RSS feed for the blog
 
-If you prefer, you can help us by creating a Pull Request containing the relevant changes to [planet.yml](planet.yml)
+If you prefer, you can help us by creating a Pull Request containing the relevant changes to [planet.ini](planet.ini)
 
 If the feed meets the criteria above, it will be added.
 
