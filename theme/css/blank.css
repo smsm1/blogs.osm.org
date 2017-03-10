@@ -9,6 +9,9 @@ a { text-decoration: none; }
 .small {
   font-size: 12px; }
 
+#articles {
+  margin-right: 210px; }
+
 #navwrap {
   float: right;
   background-color: white;
