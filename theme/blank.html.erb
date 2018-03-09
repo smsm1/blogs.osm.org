@@ -41,7 +41,7 @@
       <li>
         <%= link_to( image_tag('i/feed-icon-10x10.png'), feed.feed_url ) %>
         <%= link_to feed.title, feed.url %>
-        <%= link_to feed.twitter, "http://twitter.com/#{feed.twitter}", :class => "icon-twitter" if feed.twitter %>
+        <%= link_to '', "http://twitter.com/#{feed.twitter}", :title => "@#{feed.twitter} on twitter", :class => "icon-twitter" if feed.twitter %>
       </li>
      <% end %>
      </ul>
