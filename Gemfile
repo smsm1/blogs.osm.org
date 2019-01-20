@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 
 gem "pluto"
 
-gem "activerecord"
+gem "activerecord", "~> 5.1.0"
 gem "sqlite3"
 
 gem "sass"
