@@ -82,15 +82,11 @@ GEM
     props-activerecord (0.2.0)
       activerecord
       props (>= 1.2.0)
-    rb-fsevent (0.10.3)
-    rb-inotify (0.10.0)
-      ffi (~> 1.0)
+    rake (12.3.2)
     rubyzip (1.2.3)
-    sass (3.7.4)
-      sass-listen (~> 4.0.0)
-    sass-listen (4.0.0)
-      rb-fsevent (~> 0.9, >= 0.9.4)
-      rb-inotify (~> 0.9, >= 0.9.7)
+    sassc (2.0.1)
+      ffi (~> 1.9)
+      rake
     sqlite3 (1.4.1)
     textutils (1.4.0)
       activesupport
@@ -107,7 +103,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord (~> 5.1.0)
   pluto
-  sass
+  sassc
   sqlite3
 
 RUBY VERSION

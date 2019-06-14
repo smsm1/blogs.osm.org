@@ -6,4 +6,4 @@ gem "pluto"
 gem "activerecord", "~> 5.1.0"
 gem "sqlite3"
 
-gem "sass"
+gem "sassc"
