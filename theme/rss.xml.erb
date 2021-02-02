@@ -13,8 +13,8 @@
 %>
 <item>
   <title><%= CGI.escapeHTML(item.title) %></title>
-  <guid><%= item.guid %></guid>
-  <link><%= item.url %></link>
+  <guid><%= CGI.escapeHTML(item.guid) %></guid>
+  <link><%= CGI.escapeHTML(item.url) %></link>
   <description><% if item.content %>
     <%= CGI.escapeHTML(item.content) %>
   <% elsif item.summary %>

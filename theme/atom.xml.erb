@@ -14,8 +14,8 @@
 %>
   <entry xml:lang="en">
     <title type="html" xml:lang="en"><%= CGI.escapeHTML(item.feed.title) %>: <%= CGI.escapeHTML(item.title) %></title>
-    <link href="<%= item.url %>"/>
-    <id><%= item.guid %></id>
+    <link href="<%= CGI.escapeHTML(item.url) %>"/>
+    <id><%= CGI.escapeHTML(item.guid) %></id>
     <updated><%= item.published.to_datetime.rfc3339 %></updated>
     <content type="html" xml:lang="en"><% if item.content %>
     <%= CGI.escapeHTML(item.content) %>
